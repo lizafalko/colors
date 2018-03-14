@@ -6,6 +6,7 @@ html,body {
   text-align: center;
   vertical-align: center;
   padding: 287px 50px;
+  transition: .3s ease-in;
 }
 
 .App__button {
@@ -15,6 +16,7 @@ html,body {
   color: white;
   background-color: #F9A828;
   transition: background-color .2s ease-in;
+  box-shadow: 5px 5px 10px #00000087;
 }
 
 .App__button:hover {
