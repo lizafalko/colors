@@ -1,0 +1,26 @@
+html,body {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  vertical-align: center;
+  padding: 287px 50px;
+}
+
+.App__button {
+  border: none;
+  padding: 30px 80px;
+  font-size: 24px;
+  color: white;
+  background-color: #F9A828;
+  transition: background-color .2s ease-in;
+}
+
+.App__button:hover {
+  background-color: #db8f17;
+}
+
+.App__button:focus {
+  background-color: #c78010;
+}
