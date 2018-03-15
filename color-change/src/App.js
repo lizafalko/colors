@@ -42,9 +42,9 @@ class App extends Component {
     return (
       <div className="App" style={{background: this.state.color}}>
         <div>
-          <img src="img/pink-heart.png" width="50" height="50" />
-          </div>
-          <button className="App__button" onClick={this.changeColor}>Click me</button>
+          <img src="img/pink-heart.png" width="50" height="50" onClick={this.countLikes}/>
+        </div>
+        <button className="App__button" onClick={this.changeColor}>Click me</button>
       </div>
     );
   }
