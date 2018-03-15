@@ -41,7 +41,10 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{background: this.state.color}}>
-        <button className="App__button" onClick={this.changeColor}>Click me</button>
+        <div>
+          <img src="img/pink-heart.png" width="50" height="50" />
+          </div>
+          <button className="App__button" onClick={this.changeColor}>Click me</button>
       </div>
     );
   }
